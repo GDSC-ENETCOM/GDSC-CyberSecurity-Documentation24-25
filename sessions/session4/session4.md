@@ -17,6 +17,7 @@ This repository serves as a resource for understanding **web vulnerabilities**‚Ä
 5. [Tools for Web Exploitation](#tools-for-web-exploitation)
 6. [Real-World Examples](#real-world-examples)
 7. [Why It Matters](#why-it-matters)
+8. [Additional Resources](#additional-resources)
 
 ---
 
@@ -38,6 +39,8 @@ Web vulnerabilities are weaknesses or flaws in a web application's design, imple
   SELECT * FROM users WHERE username = '' OR 1=1--' AND password = '';
   ```
 - **Impact**: Data breaches, unauthorized access, and database manipulation.
+
+- **Useful Resource**: [SQL Injection Auth Bypass Payloads](https://github.com/CyberM0nster/SQL-Injection-Payload-List-/blob/master/SQL%20Injection%20Auth%20Bypass%20Payloads)
 
 ---
 
@@ -106,7 +109,7 @@ Understanding web vulnerabilities is essential for:
 ---
 
 ## üìÅ Additional Resources
+- [SQL Injection Auth Bypass Payloads](https://github.com/CyberM0nster/SQL-Injection-Payload-List-/blob/master/SQL%20Injection%20Auth%20Bypass%20Payloads)
 - [OWASP Top 10 Web Vulnerabilities](https://owasp.org/www-project-top-ten/)
 - [Burp Suite Documentation](https://portswigger.net/burp/documentation)
 - [SQLmap GitHub Repository](https://github.com/sqlmapproject/sqlmap)
-
